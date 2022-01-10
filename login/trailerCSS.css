@@ -1,0 +1,39 @@
+:root{
+    --primary-color:#414141;
+    --secondary-color: #4A4A4A;
+    --search-color: #272727;
+}
+
+body{
+    background-color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+#video_tr{
+   
+    width: 80vw;
+    height: 40vw;
+    margin-left: 10vw;
+}
+#pay_b {
+    margin-left: 43.5vw;
+    margin-top: 1vw;
+    background-color: #2592E6;
+    border: transparent;
+    border-radius: 10px;
+    width: 13vw;
+    padding: 0.5vw;
+    font-size: 1.25vw;
+    font-weight: bold;
+}
+
+#logo {
+    margin-left: 2vw;
+    margin-top: 1vw;
+}
+#logo_home {
+    width: 4vw;
+    height: 4vw;
+    margin-top: 1vw;
+}
+

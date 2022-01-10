@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:#414141;
+    --secondary-color: #4A4A4A;
+    --search-color: #272727;
+}
+
+body{
+    background-color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
+
+#search{
+    background-color: var(--search-color);
+    border: 2px solid var(--search-color);
+    padding: 0.35vw;
+    border-radius: 50px;
+    color: white;
+    font-size: 0.90vw;
+    margin-left: 0.25vw;
+}
+
+.filters {
+    margin-left: 30%;
+    margin-top: 2%;
+
+}
+
+main{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie {
+    width: 300px;
+    margin: 1rem;
+    border-radius: 3px;
+    box-shadow: 0.2px 4px 5px rgba(0,0,0,0.1);
+    background-color: var(--secondary-color);
+    position:relative;
+    overflow: hidden;
+}
+
+
+.movie img{
+    width:100%;
+}
+
+.movie-info{
+    color:#eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: 0.5px;
+}
+
+.movie-info h3{
+    margin-top: 0;
+}
+
+.movie-info span{
+    background-color: var(--primary-color);
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.movie-info span.green{
+    color:lightgreen;
+}
+
+.overview{
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: #fff;
+    padding: 1rem;
+    max-height: 100%;
+    transform:translateY(101%);
+    transition:transform 0.3s ease-in;
+    color: black;
+}
+.movie:hover .overview{
+    transform:translateY(0)
+}
+
+.genreList{
+    border-radius: 20px;
+    color: white;
+    background-color: var(--secondary-color);
+    width: 95%;
+    margin-left: 2.5%;
+    text-align: left;
+    padding: 1rem;
+}
+
+.cx{
+    display: inline-block;
+    width: 95%;
+}
+
+#title {
+    margin-top: 2vw;
+    margin-left: 3vw;
+    font-size: 2vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+#logo {
+    margin-left: 94vw;
+    position: absolute;
+}
+#logo_home {
+    margin-top: 0.5vw;
+    width: 3vw;
+    height: 3vw;
+}
+

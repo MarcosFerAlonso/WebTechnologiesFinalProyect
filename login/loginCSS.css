@@ -1,0 +1,53 @@
+#title {
+    margin-top: 10%;
+    font-size: 40px;
+    color:white;
+    margin-left: 46%;
+
+}
+#text{
+    height: 25px;
+    border-radius: 20px;
+    padding: 4px;
+    border: solid thin #aaa;
+    margin-top: 1%;
+    margin-left: 25%;
+    width: 50%;
+}
+
+#button{
+    padding: 10px;
+    margin-left: 45%;
+    border-radius: 20px;
+    width: 150px;
+    color: white;
+    background-color: #2592E6;
+    border: none;
+    margin-top: 3%;
+    font-size: 20px;
+}
+
+#sg{
+    margin-left: 43%;
+    color: white;
+    margin-top: 2%;
+}
+
+#imgfb{
+    max-width:100%;
+    width: 3vw;
+    margin-left: 43%;
+    margin-top: 5%;
+}
+#img{
+    max-width:100%;
+    width: 3vw;
+}
+#link{
+    color: #2592E6;
+}
+
+body{
+    background-color: #3d3d3d;
+}
+
